@@ -1,0 +1,106 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "is anyone there"
+      ],
+      "responses": [
+        "Hello! Welcome to the AI & DS Department Assistant. How can I help you today?",
+        "Hi there! Ask me anything about the AI & DS department syllabus, faculty, or labs."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "see you later",
+        "goodbye",
+        "exit",
+        "thank you",
+        "thanks"
+      ],
+      "responses": [
+        "You're welcome! Feel free to ask if you have more questions. All the best with your studies!",
+        "Goodbye! Have a productive day in the AI & DS department."
+      ]
+    },
+    {
+      "tag": "department_info",
+      "patterns": [
+        "what is aids department",
+        "tell me about ai and ds department",
+        "about department",
+        "vision and mission"
+      ],
+      "responses": [
+        "The Artificial Intelligence and Data Science (AI & DS) Department focuses on imparting core knowledge in Machine Learning, Deep Learning, Big Data Analytics, Natural Language Processing, and Computer Vision to prepare students for cutting-edge industry and research roles."
+      ]
+    },
+    {
+      "tag": "third_year_subjects",
+      "patterns": [
+        "what are 3rd year subjects",
+        "third year syllabus",
+        "5th semester subjects",
+        "6th semester subjects",
+        "subjects in 3rd year"
+      ],
+      "responses": [
+        "Typical 3rd Year AI & DS core subjects include:\n- Machine Learning & Deep Learning\n- Natural Language Processing (NLP)\n- Big Data Analytics & Distributed Systems\n- Computer Vision / Reinforcement Learning\n- Cloud Computing & DevOps for AI\n- Mini-Project / Capstone Phase 1."
+      ]
+    },
+    {
+      "tag": "labs",
+      "patterns": [
+        "what are the lab sessions",
+        "ai lab timings",
+        "practical sessions",
+        "data science lab"
+      ],
+      "responses": [
+        "The 3rd year practical curriculum includes the Machine Learning Lab, Deep Learning & GPU Computing Lab, and the Data Analytics Lab with tools like Python, PyTorch, TensorFlow, and Apache Spark."
+      ]
+    },
+    {
+      "tag": "hod_faculty",
+      "patterns": [
+        "who is the hod",
+        "head of the department",
+        "faculty list",
+        "contact hod"
+      ],
+      "responses": [
+        "The Head of the AI & DS Department is available in the Department Office (Block B, 2nd Floor). You can also reach out to faculty members during their scheduled consultation hours."
+      ]
+    },
+    {
+      "tag": "internship_projects",
+      "patterns": [
+        "mini project guidelines",
+        "internship requirements",
+        "project submission date",
+        "capstone project"
+      ],
+      "responses": [
+        "For 3rd year students, Mini-Projects should focus on applied ML/DL, Web-AI integrations, or Data Pipelines. Please consult your project coordinator for synopsis submission and review deadlines."
+      ]
+    },
+    {
+      "tag": "attendance_policy",
+      "patterns": [
+        "minimum attendance required",
+        "attendance criteria",
+        "attendance percentage"
+      ],
+      "responses": [
+        "A minimum of 75% attendance is required to be eligible for internal assessments and end-semester university examinations."
+      ]
+    }
+  ]
+}
